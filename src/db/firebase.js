@@ -2,14 +2,15 @@ import { initializeApp } from "firebase/app";
 import { getFirestore, collection, addDoc } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
-  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
-  databaseURL: import.meta.env.VITE_FIREBASE_DATABASE_URL,
+  apiKey: "AIzaSyAiQHaesw8oJk-xmDeUlbOZSv0Zk1qbixI",
+  authDomain: "courselearner-1d625.firebaseapp.com",
+  databaseURL:
+    "https://courselearner-1d625-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "courselearner-1d625",
+  storageBucket: "courselearner-1d625.appspot.com",
+  messagingSenderId: "225864512338",
+  appId: "1:225864512338:web:fbd40f74dfc62262d5808b",
+  measurementId: "G-MZJCBS9SME",
 };
 
 const app = initializeApp(firebaseConfig);

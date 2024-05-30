@@ -9,7 +9,7 @@ const HighlightText = ({ text, highlight }) => {
   const parts = text.split(regex);
 
   return (
-    <span>
+    <span className="md:text-base text-xs">
       {parts.map((part, index) =>
         part.toLowerCase() === highlight.toLowerCase() ? (
           <span key={index} className="bg-yellow-300">
