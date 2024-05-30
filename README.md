@@ -1,8 +1,33 @@
-# React + Vite
+CourseLearner
+CourseLearner is a web application built with React, Redux, and Keepreact for the UI. It allows users to view and manage enrolled courses. The project uses Firebase Firestore as the database.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features :
 
-Currently, two official plugins are available:
+DashBoard
+CourseList
+COurseDetails
+can Like the course
+can Enroll in the course
+can filter the course by title & Instructor name
+can sort the course by most Liked
+Responsive UI
+Global state management using Redux
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+Prerequisites
+Node.js and npm installed on your machine
+Firebase Firestore setup (optional if using your own database)
+
+Getting Started
+1. Populate the Database
+If you are not using the provided Firebase Firestore database, you need to populate the database first.
+
+- node src/db/populatedb.js
+
+2. Install Dependencies
+
+- npm install
+
+3. Run the Development Server
+
+- npm run dev
